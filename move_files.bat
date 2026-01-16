@@ -1,5 +1,5 @@
 @echo off
-set DOWNLOADS=C:\Users\Mecha\Downloads
+set DOWNLOADS=C:\Users\user\Downloads
 set ARCHIVED=%DOWNLOADS%\Archived
 set TOBEDELETED=%DOWNLOADS%\ToBeDeleted
 
@@ -39,3 +39,4 @@ for /d %%F in ("%ARCHIVED%\*") do (
 
 echo Done!
 pause
+
